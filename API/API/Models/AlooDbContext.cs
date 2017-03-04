@@ -15,6 +15,7 @@ namespace API.Models
         public DbSet<Tuser> Tusers { get; set; }
 
 
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
