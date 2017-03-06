@@ -12,7 +12,7 @@ namespace API.Models
             : base("name=Aloo")
         {
         }
-        public DbSet<Tuser> Tusers { get; set; }
+        public DbSet<Student> Students { get; set; }
 
 
 

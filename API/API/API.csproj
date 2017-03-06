@@ -207,7 +207,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DataModels\BaseDataModel.cs" />
-    <Compile Include="Models\DataModels\Tuser.cs" />
+    <Compile Include="Models\DataModels\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
