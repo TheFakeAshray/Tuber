@@ -13,7 +13,9 @@ namespace API.Models
         {
         }
         public DbSet<Student> Students { get; set; }
-
+        public DbSet<Tutor> Tutors { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
